@@ -11,9 +11,6 @@
 * {
     height: auto;
 }
-* {
-    border: 1px solid red;
-}
 body {
     background: url(Background.webp);
     background-repeat: no-repeat;

@@ -40,6 +40,7 @@ li {
     font-size: medium;
     font-weight: 600;
     text-align: center;
+    cursor: pointer;
 }
 li i {
     font-size: 1.5rem;
@@ -64,6 +65,7 @@ header {
     }
 .menu-btn {
     width: 50px;
+    cursor: pointer;
     }
 .menu-btn i {
     font-size: 2rem;
@@ -119,6 +121,7 @@ nav {
     font-weight: bold;
     background-color: var(--purple);
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 .about__section {
     display: flex;
@@ -163,7 +166,7 @@ p {
     padding: 2rem 0 2rem 0;
     box-shadow: 0 0 20px var(--lila);
     border-radius: 2rem;
-    margin: auto;
+    margin: 1rem;
     width: 23rem;
     height: 38rem;
     
@@ -182,6 +185,7 @@ p {
     justify-content: center;
     align-items: center;
     margin: auto;
+    cursor: pointer;
 }
 h1 {
     margin-bottom: 1rem;
@@ -253,14 +257,18 @@ h1 {
         background-color: #857C8D;
         transition: 3s;
         color: white;
-    }
+        }
     .our-slogan {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 13rem;
-   }
+    margin: 3rem;
+    }
+    .slogan {
+        max-width: 60rem;
+        margin-right: 5rem;
+    }
    .img {
        position: relative;
 
